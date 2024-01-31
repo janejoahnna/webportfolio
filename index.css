@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Onest:wght@500&family=Poppins:wght@900&family=Roboto&display=swap');
+
+
+body {
+	background: #080808;
+	color: #fff;
+}
+
+/*#header {
+	width: 100%;
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}*/
+
+h1,h2,h3,h4,h5,h6 {
+	color: #080808;
+	font-weight: 700;
+}
+
+.background-image-div {
+    background-image: url(images/bg2.png);
+    height: 500px; 
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#projects {
+  background-color: #E8D4F0; 
+  color: #6A3771; 
+}
+
+.card-title {
+  color: #6A3771;
+}
+
+.card-text {
+  color: #6A3771;
+}
+
+.card {
+  background-color: #FFFFFF;
+  box-shadow: 0 4px 8px 0 rgba(106, 55, 113, 0.2);
+  border: none;
+}
+
+.card-img-top {
+  border-bottom: 2px solid #6A3771;
+}
+
+.container h1 {
+  color: #6A3771;
+}
+
+:root {
+  --light-purple: #F4E7F3;
+  --medium-purple: #D3B4D8;
+  --dark-purple: #6A3771;
+  --pink-accent: #E991C1;
+}
+
+#tools {
+  background-color: var(--light-purple); 
+  color: var(--dark-purple);
+}
+
+#tools h3 {
+  color: var(--dark-purple);
+}
+
+
+#tools img {
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+#contact {
+  background-color: var(--medium-purple);
+  color: var(--dark-purple);
+}
+
+#contact h1, #contact h3 {
+  color: var(--dark-purple);
+}
+
+
+form {
+  background-color: var(--light-purple);
+}
+
+form input, form textarea, form label {
+  color: var(--dark-purple);
+}
+
+/*.btn-outline-danger {
+  border-color: var(--dark-purple);
+  color: var(--dark-purple);
+}*/
+
+/*.btn-outline-danger:hover {
+  background-color: var(--dark-purple);
+  color: var(--light-purple);
+}*/

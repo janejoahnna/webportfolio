@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Developer Profile</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
+    <!-- External CSS -->
+    <link rel="stylesheet" type="text/css" href="index.css">
+
+    <!-- Bootstrap Link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+  </head>
+  <body>
+    <div id="header">
+      <!-- Navbar Section Start -->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-danger bg-dark fixed-top">
+        <a class="navbar-brand" href="#">
+          <span class="h3">JJ Ancheta</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavs">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#tools">Tools</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- Navbar Section End -->
+    </div>
+
+    <!-- Main Content Section Start -->
+ <section id="home">
+     <div class="background-image-div">
+         <div class="container">
+             <div class="row">
+                 <div class="col text-right">
+                     <h1>Joahnna Jane Ancheta</h1>
+                     <h3>Full Stack Web Developer</h3>
+                 </div>
+             </div>
+         </div>
+     </div>
+ </section>
+
+
+   
+                 
+  <!-- My Projects -->
+  <div id="projects" class="container">
+    <h1 class="mt-5 mb-1 text-center p-5">My Projects</h1>
+      <div class="card-deck my-5 justify-content-center" id="projects">
+        <div class="card col-md-3 px-0">
+          <img src="./images/ecom.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-muted">E Commerce</h5>
+                <p class="card-text text-muted">
+                  E-commerce, often referred to as electronic business or e-Business, involves the buying and selling of goods and services through an electronic medium, such as the Internet.
+                </p>        
+            </div>
+        </div>
+        <div class="card col-md-3 px-0">
+          <img src="./images/blog.avif" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-muted">Blog</h5>
+                <p class="card-text text-muted">
+                  A blog, short for "weblog," is a digital platform that functions as an online diary or informational site. It presents content in reverse chronological order, ensuring that the most recent entries appear first at the top of the page.
+                </p>       
+            </div>
+        </div>
+        <div class="card col-md-3 px-0">
+          <img src="./images/bookingsystem.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-muted">Online Booking System</h5>
+                <p class="card-text text-muted">
+                  An online booking system is essentially a software tool designed for managing reservations.
+                </p>                        
+            </div>
+        </div>
+      </div>
+     
+<!-- Tools -->
+      <div class="jumbotron bg-light my-3 d-flex flex-column justify-content-center align-items-center text-white" id="tools">
+        <h3 class="text-center mt-2 mb-5 text-muted">Tools I Use</h3>
+        <div class="d-flex flex-wrap justify-content-center mb-4">
+          <img class=" m-1 rounded" width="80" src="images/logo-html5.png">
+          <img class=" m-1 rounded" width="80" src="images/logo-css3.png">
+          <img class=" m-1 rounded" width="80" src="images/logo-javascript.png">
+          <img class=" m-1 rounded" width="80" src="images/logo-git.png">
+          <img class=" m-1 rounded" width="80" src="images/logo-sublime-text-3.png">
+          <img class=" m-1 rounded" width="80" src="images/logo-gitlab-ci-cd.png">
+        </div>
+        <div class="d-flex flex-wrap justify-content-center mb-4">
+          <img class=" m-1 rounded" width="80" src="images/logo-expressjs.png">
+          <img class=" m-1 rounded" width="80" src="images/logo-react.png">
+          <img class=" m-1 rounded" width="80" src="images/logo-heroku.png">
+          <img class=" m-1 rounded" width="80" src="images/logo-mongodb.png">
+          <img class=" m-1 rounded" width="80" src="images/logo-nodejs.png">
+          <img class=" m-1 rounded" width="80" src="images/logo-postman.png">
+        </div>
+      </div>
+
+      <!-- contact -->
+      <div id="contact" class="container">
+        <div class="row justify-content-center text-center p-5">
+          <div class="col-lg-8">
+            <h3>CONTACT</h3>
+          <h1>Interested in working together? Let's talk!</h1>
+          </div>
+        </div>
+
+      <form action="#" class="p-5 bg-light">
+        <div class="form-group">
+          <label>Full Name</label>
+          <input type="text" class="form-control">
+        </div>
+        <div class="form-group">
+          <label>Email Address</label>
+          <input type="email" class="form-control">
+        </div>
+        <div class="form-group">
+          <label>Message</label>
+          <textarea class="form-control"></textarea>
+        </div>
+        <button type="submit" class="btn btn-outline-danger btn-block" data-toggle="modal" data-target="#modalDiv">Send</button>
+      </form>
+        
+        <!-- Modal -->
+        <div class="modal fade" id="modalDiv" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="modalLabel">Contact Form Submission</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                Your message has been sent successfully!
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      <footer  class="text-center d-grid gap-3 py-3 bg-dark text-white">
+        <p>JJ Ancheta | Web Developer</p>
+        <div class="d-flex justify-content-center gap-3">
+          <div>&copy;  For Educational Purposes Only. 2024</div>
+        </div>
+      </footer>
+
+    <!-- Main Content Section End -->
+
+
+
+
+    <!-- Bootstrap Script -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    <!-- End of Bootstrap Script -->
+  </body>
+</html>
